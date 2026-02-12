@@ -694,3 +694,62 @@ button {
   transform-style: preserve-3d;
 }
 
+/* ================= RESPONSIVE MOBILE ================= */
+@media (max-width: 768px) {
+
+  /* HERO */
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 100px 5%;
+  }
+
+  .hero-right {
+    transform: none;
+    margin-top: 40px;
+  }
+
+  .circle {
+    width: 220px;
+    height: 220px;
+    margin: auto;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  /* ABOUT */
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  /* SKILLS */
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* PROJECTS */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* CONTACT */
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+}
